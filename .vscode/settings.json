@@ -1,3 +1,9 @@
 {
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "files.associations": {
+        "keymap_contributions.h": "c",
+        "keymap_lithuanian_azerty.h": "c",
+        "keymap_jp.h": "c",
+        "keymap_german.h": "c"
+    }
 }
