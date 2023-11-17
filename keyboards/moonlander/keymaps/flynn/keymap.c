@@ -100,9 +100,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_TRANSPARENT,KC_TRANSPARENT, KC_TRANSPARENT,                 KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT
   ),
   [L_GAMING] = LAYOUT_moonlander(
-    KC_ESCAPE,          KC_1, KC_2,           KC_3,           KC_4,           KC_5,           KC_UP,                                 KC_TRANSPARENT, KC_6,           KC_7,           KC_8,           KC_9,           KC_0,           KC_BSPACE,
-    KC_TAB,         KC_Q,           KC_W,           KC_E,           KC_R,           KC_T,           KC_DOWN,                                 KC_TRANSPARENT, KC_Y,           KC_U,           KC_I,           KC_O,           KC_P,           KC_TRANSPARENT,
-    KC_6,         KC_A,           KC_S,           KC_D,           KC_F,           KC_G,           LALT(LSFT(KC_R)),                                                                      KC_TRANSPARENT, KC_H,           KC_J,           KC_K,           KC_L,           KC_TRANSPARENT, KC_TRANSPARENT,
+    KC_ESCAPE,          KC_1, KC_2,           KC_3,           KC_4,           KC_5,           LALT(LSFT(KC_R)),                                 KC_TRANSPARENT, KC_6,           KC_7,           KC_8,           KC_9,           KC_0,           KC_BSPACE,
+    KC_TAB,         KC_Q,           KC_W,           KC_E,           KC_R,           KC_T,           KC_UP,                                 KC_TRANSPARENT, KC_Y,           KC_U,           KC_I,           KC_O,           KC_P,           KC_TRANSPARENT,
+    KC_6,         KC_A,           KC_S,           KC_D,           KC_F,           KC_G,           KC_DOWN,                                                                      KC_TRANSPARENT, KC_H,           KC_J,           KC_K,           KC_L,           KC_TRANSPARENT, KC_TRANSPARENT,
     KC_LSHIFT,      KC_Z,           KC_X,           KC_C,           KC_V,           KC_B,                                           KC_N,           KC_M,           KC_TRANSPARENT, KC_UP,          KC_TRANSPARENT, KC_RSHIFT,
     KC_LCTRL,       MO(L_MEDIA), KC_LALT, KC_7,         KC_SPC,         KC_8,                                                                                                         KC_TRANSPARENT, KC_TRANSPARENT, KC_LEFT,        KC_DOWN,        KC_RIGHT,       TO(L_DEFAULT),
     KC_9,       KC_M,      KC_N,                        KC_LALT,        KC_TAB,         KC_ENTER
